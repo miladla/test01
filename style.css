@@ -1,0 +1,45 @@
+body{
+    background-image: url(bg.jpeg);
+    font-family: Roboto;
+    padding: 24px;
+    color: #FFFFFF;
+}
+
+h1{
+    font-size: 48px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+h2{
+    font-size: 38px;
+    margin-bottom: 24px;
+}
+
+p{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+.menu{
+  width: 100%;
+  background-color: #9E9494;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+  max-width: 900px;
+}
+.item p {
+    display: inline-block;
+}
+.fruit, .vegetable {
+    text-align: left;
+    width: 75%;
+  }
+  .price {
+    text-align: right;
+    width: 25%;
+  }
